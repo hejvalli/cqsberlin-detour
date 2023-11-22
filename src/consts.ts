@@ -2,16 +2,16 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 // Website metadata
-export const SITE_URL: string = "https://astrostarter.zank.studio";
-export const SITE_TITLE: string = "Astro Blog";
-export const SITE_DESCRIPTION: string = "Welcome to my website!";
+export const SITE_URL: string = "https://cqs.berlin";
+export const SITE_TITLE: string = "CQS - Critical Queer Solidarity";
+export const SITE_DESCRIPTION: string = "A intersectional queer activist group organizing international exchange projects, art and political discussions around topics such as drag and gender expression, dating and relationships and sexual health";
 
 // Repo info
-export const REPO: string = "zankhq/astro-starter"; // TODO: Update dynamically
+export const REPO: string = "hejvalli/cqsberlin-detour"; // TODO: Update dynamically
 export const DEFAULT_BRANCH: string = "main"; // TODO: Update dynamically
 
 // SEO metadata
-export const TWITTER_CREATOR: string = "@xxx";
+export const TWITTER_CREATOR: string = "@cqsberlin";
 
 // Navigation
 type Page = {
@@ -26,11 +26,11 @@ export const PAGES: Page[] = [
 		href: "/",
 	},
 	{
-		title: "Blog",
-		href: "/blog",
+		title: "projects & upcoming",
+		href: "/projects",
 	},
 	{
-		title: "About",
+		title: "about",
 		href: "/about",
 	},
 ];
@@ -39,7 +39,7 @@ export const PAGES: Page[] = [
 export const DEFAULT_LOCALE = "en";
 export const LOCALES = {
 	en: "en", // the `defaultLocale` value must present in `locales` keys
-	it: "it",
+	de: "de",
 };
 
 // Hosting

@@ -58,7 +58,7 @@ export default defineConfig({
 				public_folder: "@assets/images",
 				i18n: {
 					structure: "multiple_folders",
-					locales: ["en", "it"],
+					locales: ["en", "de"],
 					default_locale: "en",
 				},
 				collections: [

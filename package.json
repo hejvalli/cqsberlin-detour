@@ -20,7 +20,7 @@
 		"build": "npm run pwa:generate-assets && astro build",
 		"preview": "astro preview",
 		"astro": "astro",
-		"pwa:generate-assets": "pwa-assets-generator --preset minimal public/logo.svg"
+		"pwa:generate-assets": "pwa-assets-generator --preset minimal public/favicon/pwa-512x512.png"
 	},
 	"dependencies": {
 		"@astrojs/alpinejs": "^0.3.1",
